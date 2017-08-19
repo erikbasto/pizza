@@ -12,7 +12,28 @@
 		BF05035F1F48AF04003A8750 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF05035D1F48AF04003A8750 /* Main.storyboard */; };
 		BF0503611F48AF04003A8750 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0503601F48AF04003A8750 /* Assets.xcassets */; };
 		BF0503641F48AF04003A8750 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0503621F48AF04003A8750 /* LaunchScreen.storyboard */; };
+		BF05036D1F48B5A3003A8750 /* Pizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05036C1F48B5A3003A8750 /* Pizza.swift */; };
+		BF05036F1F48B70D003A8750 /* PizzaSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05036E1F48B70D003A8750 /* PizzaSizeViewController.swift */; };
+		BF0503721F48BA94003A8750 /* DLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0503711F48BA94003A8750 /* DLRadioButton.m */; };
+		BF0503791F48BF69003A8750 /* PizzaDoughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0503781F48BF69003A8750 /* PizzaDoughViewController.swift */; };
+		BF05037B1F48C289003A8750 /* PizzaCheeseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05037A1F48C289003A8750 /* PizzaCheeseViewController.swift */; };
+		BF05037D1F48C2CE003A8750 /* PizzaIngredientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05037C1F48C2CE003A8750 /* PizzaIngredientsViewController.swift */; };
+		BF05037F1F48C311003A8750 /* PizzaConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05037E1F48C311003A8750 /* PizzaConfirmViewController.swift */; };
+		BF05038D1F48D36A003A8750 /* AKRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF05038C1F48D36A003A8750 /* AKRadioButtonsController.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF0503851F48D18E003A8750 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF0503561F48AF04003A8750 /* Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pizza.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +43,15 @@
 		BF0503601F48AF04003A8750 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF0503631F48AF04003A8750 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF0503651F48AF04003A8750 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF05036C1F48B5A3003A8750 /* Pizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pizza.swift; sourceTree = "<group>"; };
+		BF05036E1F48B70D003A8750 /* PizzaSizeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaSizeViewController.swift; sourceTree = "<group>"; };
+		BF0503701F48BA94003A8750 /* DLRadioButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DLRadioButton.h; path = "../../../../../../Downloads/DLRadioButton-master/DLRadioButton/DLRadioButton.h"; sourceTree = "<group>"; };
+		BF0503711F48BA94003A8750 /* DLRadioButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "../../../../../../Downloads/DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
+		BF0503781F48BF69003A8750 /* PizzaDoughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaDoughViewController.swift; sourceTree = SOURCE_ROOT; };
+		BF05037A1F48C289003A8750 /* PizzaCheeseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaCheeseViewController.swift; sourceTree = "<group>"; };
+		BF05037C1F48C2CE003A8750 /* PizzaIngredientsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaIngredientsViewController.swift; sourceTree = "<group>"; };
+		BF05037E1F48C311003A8750 /* PizzaConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaConfirmViewController.swift; sourceTree = "<group>"; };
+		BF05038C1F48D36A003A8750 /* AKRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKRadioButtonsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +70,7 @@
 			children = (
 				BF0503581F48AF04003A8750 /* Pizza */,
 				BF0503571F48AF04003A8750 /* Products */,
+				BF0503801F48D0AE003A8750 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +85,38 @@
 		BF0503581F48AF04003A8750 /* Pizza */ = {
 			isa = PBXGroup;
 			children = (
+				BF0503701F48BA94003A8750 /* DLRadioButton.h */,
+				BF0503711F48BA94003A8750 /* DLRadioButton.m */,
+				BF05036B1F48B57D003A8750 /* Entities */,
 				BF0503591F48AF04003A8750 /* AppDelegate.swift */,
 				BF05035B1F48AF04003A8750 /* ViewController.swift */,
 				BF05035D1F48AF04003A8750 /* Main.storyboard */,
 				BF0503601F48AF04003A8750 /* Assets.xcassets */,
 				BF0503621F48AF04003A8750 /* LaunchScreen.storyboard */,
 				BF0503651F48AF04003A8750 /* Info.plist */,
+				BF0503781F48BF69003A8750 /* PizzaDoughViewController.swift */,
+				BF05036E1F48B70D003A8750 /* PizzaSizeViewController.swift */,
+				BF05037A1F48C289003A8750 /* PizzaCheeseViewController.swift */,
+				BF05037C1F48C2CE003A8750 /* PizzaIngredientsViewController.swift */,
+				BF05037E1F48C311003A8750 /* PizzaConfirmViewController.swift */,
+				BF05038C1F48D36A003A8750 /* AKRadioButtonsController.swift */,
 			);
 			path = Pizza;
+			sourceTree = "<group>";
+		};
+		BF05036B1F48B57D003A8750 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				BF05036C1F48B5A3003A8750 /* Pizza.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		BF0503801F48D0AE003A8750 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +129,7 @@
 				BF0503521F48AF04003A8750 /* Sources */,
 				BF0503531F48AF04003A8750 /* Frameworks */,
 				BF0503541F48AF04003A8750 /* Resources */,
+				BF0503851F48D18E003A8750 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +152,7 @@
 				TargetAttributes = {
 					BF0503551F48AF04003A8750 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,8 +193,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF05037D1F48C2CE003A8750 /* PizzaIngredientsViewController.swift in Sources */,
+				BF05036F1F48B70D003A8750 /* PizzaSizeViewController.swift in Sources */,
+				BF0503721F48BA94003A8750 /* DLRadioButton.m in Sources */,
+				BF05038D1F48D36A003A8750 /* AKRadioButtonsController.swift in Sources */,
+				BF05037F1F48C311003A8750 /* PizzaConfirmViewController.swift in Sources */,
 				BF05035C1F48AF04003A8750 /* ViewController.swift in Sources */,
+				BF05037B1F48C289003A8750 /* PizzaCheeseViewController.swift in Sources */,
+				BF0503791F48BF69003A8750 /* PizzaDoughViewController.swift in Sources */,
 				BF05035A1F48AF04003A8750 /* AppDelegate.swift in Sources */,
+				BF05036D1F48B5A3003A8750 /* Pizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,10 +325,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Pizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kubicsoft.Pizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -272,6 +339,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Pizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kubicsoft.Pizza;
