@@ -345,7 +345,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="sMY-y6-ZJp"/>
                                 </constraints>
-                                <state key="normal" title="Siguiente">
+                                <state key="normal" title="Confirmar">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -358,27 +358,124 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3tY-NY-dyH">
-                                <rect key="frame" x="42" y="218" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOt-be-u7w" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="201" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="8N3-Vp-V5L"/>
+                                </constraints>
+                                <state key="normal" title=" Peperoni"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="Naf-dH-4MW"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zB2-8M-cPZ">
-                                <rect key="frame" x="38" y="155" width="180" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JKv-aQ-68V" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="246" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="wRI-Qa-Af2"/>
+                                </constraints>
+                                <state key="normal" title="Salchicha italiana"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="Mzv-52-Xla"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bu-0h-iwX" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="291" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="5ns-N9-Nkw"/>
+                                </constraints>
+                                <state key="normal" title="Aceituna"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="1Oy-Ek-8S4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aix-Td-g4a" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="336" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="eKe-hK-ftq"/>
+                                </constraints>
+                                <state key="normal" title="Cebolla"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="ef1-3N-SEy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DvU-6X-n4W" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="381" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="E9c-XI-HGa"/>
+                                </constraints>
+                                <state key="normal" title="Pimiento"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="U3z-hP-GlY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08m-wi-jq8" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="426" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="FFU-rQ-lhV"/>
+                                </constraints>
+                                <state key="normal" title="Piña"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="635-W2-4fv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iib-f3-mba" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="471" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="T2a-rG-0Q6"/>
+                                </constraints>
+                                <state key="normal" title="Anchoas"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="bbA-tL-Hid"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J4n-ha-KZE" customClass="CheckBox" customModule="Pizza" customModuleProvider="target">
+                                <rect key="frame" x="36" y="156" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="g02-Iu-lwP"/>
+                                </constraints>
+                                <state key="normal" title="Jamon de pavo"/>
+                                <connections>
+                                    <action selector="CheckedIngredient:" destination="0AJ-UT-Re9" eventType="touchUpInside" id="TBI-r2-i08"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="aix-Td-g4a" firstAttribute="top" secondItem="2bu-0h-iwX" secondAttribute="bottom" constant="15" id="2SP-Bi-8li"/>
+                            <constraint firstItem="J4n-ha-KZE" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="3Gb-j2-dpm"/>
                             <constraint firstItem="Cpt-OC-RJf" firstAttribute="top" secondItem="fxx-mQ-hiz" secondAttribute="bottom" constant="40" id="5gQ-9D-PeR"/>
+                            <constraint firstItem="zOt-be-u7w" firstAttribute="top" secondItem="J4n-ha-KZE" secondAttribute="bottom" constant="15" id="7vN-Qn-Ghs"/>
                             <constraint firstItem="stK-r5-chV" firstAttribute="top" secondItem="e7n-KV-EyH" secondAttribute="bottom" constant="39" id="I2o-jy-DBi"/>
+                            <constraint firstItem="iib-f3-mba" firstAttribute="top" secondItem="08m-wi-jq8" secondAttribute="bottom" constant="15" id="I4z-E1-Qmf"/>
+                            <constraint firstItem="JKv-aQ-68V" firstAttribute="top" secondItem="zOt-be-u7w" secondAttribute="bottom" constant="15" id="IAk-xk-e8q"/>
+                            <constraint firstItem="DvU-6X-n4W" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="NnG-aQ-WPt"/>
+                            <constraint firstItem="J4n-ha-KZE" firstAttribute="top" secondItem="e7n-KV-EyH" secondAttribute="bottom" constant="92" id="SHY-Uc-sdr"/>
+                            <constraint firstItem="DvU-6X-n4W" firstAttribute="top" secondItem="aix-Td-g4a" secondAttribute="bottom" constant="15" id="UZH-22-hy7"/>
+                            <constraint firstItem="08m-wi-jq8" firstAttribute="top" secondItem="DvU-6X-n4W" secondAttribute="bottom" constant="15" id="WBI-NS-aYC"/>
+                            <constraint firstItem="2bu-0h-iwX" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="Wjj-Ez-B4b"/>
+                            <constraint firstItem="aix-Td-g4a" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="XdX-ae-eLK"/>
+                            <constraint firstItem="08m-wi-jq8" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="Yl6-tZ-mWP"/>
+                            <constraint firstItem="2bu-0h-iwX" firstAttribute="top" secondItem="JKv-aQ-68V" secondAttribute="bottom" constant="15" id="cRp-sD-uY3"/>
+                            <constraint firstItem="JKv-aQ-68V" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="cTO-GX-2Jx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="stK-r5-chV" secondAttribute="trailing" constant="10" id="kpd-uC-TaE"/>
                             <constraint firstItem="fxx-mQ-hiz" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="55" id="nos-BU-6kF"/>
+                            <constraint firstItem="iib-f3-mba" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="oxb-ao-Hih"/>
                             <constraint firstItem="stK-r5-chV" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="10" id="rMD-vf-Phu"/>
+                            <constraint firstItem="zOt-be-u7w" firstAttribute="leading" secondItem="8j0-pb-plJ" secondAttribute="leadingMargin" constant="20" id="vmB-9h-bF2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fxx-mQ-hiz" secondAttribute="trailing" constant="55" id="yhJ-Wx-3j4"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="ConfirmButton" destination="fxx-mQ-hiz" id="XKW-kc-9D9"/>
+                        <outletCollection property="checkButtons" destination="J4n-ha-KZE" collectionClass="NSMutableArray" id="Gas-yX-VWW"/>
+                        <outletCollection property="checkButtons" destination="zOt-be-u7w" collectionClass="NSMutableArray" id="I7l-M1-k6S"/>
+                        <outletCollection property="checkButtons" destination="JKv-aQ-68V" collectionClass="NSMutableArray" id="cFs-5k-XL4"/>
+                        <outletCollection property="checkButtons" destination="2bu-0h-iwX" collectionClass="NSMutableArray" id="Hx9-or-V5d"/>
+                        <outletCollection property="checkButtons" destination="aix-Td-g4a" collectionClass="NSMutableArray" id="xWz-da-lhm"/>
+                        <outletCollection property="checkButtons" destination="DvU-6X-n4W" collectionClass="NSMutableArray" id="R0w-id-Z9o"/>
+                        <outletCollection property="checkButtons" destination="08m-wi-jq8" collectionClass="NSMutableArray" id="Hbp-ug-ZpA"/>
+                        <outletCollection property="checkButtons" destination="iib-f3-mba" collectionClass="NSMutableArray" id="UXj-9A-0D8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VID-yt-HSj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -415,7 +512,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrc-Lw-uD0">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vrc-Lw-uD0">
                                 <rect key="frame" x="228" y="159" width="43.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -457,8 +554,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa9-gQ-NzA">
-                                <rect key="frame" x="36" y="363" width="43.5" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa9-gQ-NzA">
+                                <rect key="frame" x="36" y="363" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -476,6 +573,7 @@
                             <constraint firstItem="Ni6-aN-6Tw" firstAttribute="leading" secondItem="fjs-pt-d3l" secondAttribute="trailing" constant="80" id="Qy1-LU-8e2"/>
                             <constraint firstItem="vrc-Lw-uD0" firstAttribute="leading" secondItem="gbo-4N-GZK" secondAttribute="trailing" constant="40" id="SJ8-06-WOj"/>
                             <constraint firstItem="s0g-Eq-O3K" firstAttribute="top" secondItem="tHx-24-xcY" secondAttribute="bottom" constant="80" id="VCT-zx-huG"/>
+                            <constraint firstItem="sa9-gQ-NzA" firstAttribute="trailing" secondItem="ibF-1C-42N" secondAttribute="trailingMargin" constant="20" id="Vif-a5-rhB"/>
                             <constraint firstItem="tHx-24-xcY" firstAttribute="leading" secondItem="ibF-1C-42N" secondAttribute="leadingMargin" constant="55" id="XfA-Ex-c12"/>
                             <constraint firstItem="obF-zq-LD9" firstAttribute="top" secondItem="Utj-ok-w9d" secondAttribute="bottom" constant="40" id="Zan-PZ-y0n"/>
                             <constraint firstAttribute="trailingMargin" secondItem="tHx-24-xcY" secondAttribute="trailing" constant="55" id="aKY-me-wsy"/>

@@ -34,7 +34,7 @@ class PizzaConfirmViewController: UIViewController
         var ingredientsList: String = ""
         for ingredient in pizza.ingredientsList{
             ingredientsList = ingredientsList +
-             ingredient + ","
+             ingredient + "\r\n"
         }
         
         PIzzaIngredients.text = ingredientsList
