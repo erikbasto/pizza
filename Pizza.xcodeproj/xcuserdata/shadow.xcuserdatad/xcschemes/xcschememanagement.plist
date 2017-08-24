@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PizzaWatchOs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>BF0503551F48AF04003A8750</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BF86C8FD1F4D1AA300925D3B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
